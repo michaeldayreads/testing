@@ -2,6 +2,7 @@ language: bash
 
 script:
   - echo foo
+  - false
 
 notifications:
   on_failure: always
