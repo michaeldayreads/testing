@@ -4,7 +4,3 @@ script:
   - echo foo
   - false
 
-notifications:
-  email:
-    on_failure: always
-    on_success: always
