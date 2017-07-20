@@ -4,5 +4,6 @@ script:
   - echo foo
 
 notifications:
-  on_failure: always
-  on_success: always
+  email:
+    on_failure: always
+    on_success: always
