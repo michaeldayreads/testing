@@ -2,7 +2,5 @@ language: bash
 
 script:
   - echo foo
+  - false
 
-notifications:
-  on_failure: always
-  on_success: always
