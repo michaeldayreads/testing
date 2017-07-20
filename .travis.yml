@@ -1,7 +1,8 @@
 language: bash
 
 script:
-  - false
+  - echo foo
 
 notifications:
   on_failure: always
+  on_success: always
