@@ -2,3 +2,6 @@ language: bash
 
 script:
   - false
+
+notifications:
+  on_failure: always
